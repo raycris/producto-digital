@@ -1,0 +1,19 @@
+@media(max-width: 600px){
+    .products{
+        display: inherit;
+        height: auto;
+    }
+
+    .products-card{
+        margin-top: auto;
+    }
+
+    .main_section{
+        padding: 4%;
+    }
+
+    .information, .person{
+        display: inherit;
+    }
+
+}

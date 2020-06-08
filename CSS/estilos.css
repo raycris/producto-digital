@@ -1,0 +1,206 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: #7acc2d;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 12px;
+}
+
+.brand_image{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left:20px ;
+    list-style: none;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: white;
+}
+
+.main_section{
+    padding: 15px;
+    text-align: center;
+}
+
+.products{
+    background-image: url(../images/curve.png);
+    height: 50px;
+    background-position-x:center;
+    background-size: cover;
+    padding:20%;
+    display: flex;
+}
+
+.products-card{
+    padding: 10px;
+    margin-top: -370px;
+}
+
+
+.products-card .products-content{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 1px #c1bcbc;
+    text-align: center;
+}
+
+.products-images{
+    text-align: center;
+}
+
+h1{
+    padding:100px;
+    text-align: center;
+}
+
+
+.products-description{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.products-content-button{
+    background-color: #7acc2d;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 17px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+}
+
+.products-content-button:hover{
+    background-color: #5a9424;
+}
+
+.information{
+    display: flex; 
+    margin: 200px; 
+
+}
+
+.information-list{
+    padding: 10px;   
+}
+
+.information-item{
+    padding: 15px; 
+}
+
+.information-item h2{
+    text-align: center;
+}
+
+.information-imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.person{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    box-shadow: 0 0 1px #c1bcbc;
+    
+}
+
+/* separar las cartas o tarjetas */
+.person-list{
+    padding: 10px;
+}
+
+.person-list .person-card{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 5px #c1bcbc;
+    
+}
+
+.person-tittle{
+    text-align: left;
+}
+
+/*----------------------------START Ventas------------------------------------*/
+
+.modulo-pago{
+    background-color: white;
+    box-shadow: 0 0 5px #c1bcbc;
+    padding: inherit;
+}
+
+.modulo-pago-images{
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.data{
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1 solid black;
+    box-sizing: border-box;
+}
+
+.modulo-pago-button{
+    width: 100%;
+    padding: 5px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #7acc2d;
+    color: white;
+    border: 0;
+}
+
+.modulo-pago-button:hover{
+    background-color: #5a9424;
+}
+/*----------------------------END Ventas------------------------------------*/
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    align-items: center;
+   
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
